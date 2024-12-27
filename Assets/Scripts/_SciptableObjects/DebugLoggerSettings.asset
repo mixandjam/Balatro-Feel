@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027a6f7d95b693e4b892a18d12db34c2, type: 3}
+  m_Name: DebugLoggerSettings
+  m_EditorClassIdentifier: 
+  tagSettings:
+  - tagValue: 1
+    isEnabled: 0
+    color: {r: 0.5019608, g: 1, b: 1, a: 1}
+  - tagValue: 2
+    isEnabled: 0
+    color: {r: 1, g: 0.8784314, b: 0.4, a: 1}
+  - tagValue: 4
+    isEnabled: 0
+    color: {r: 1, g: 0.6, b: 1, a: 1}
+  - tagValue: 8
+    isEnabled: 0
+    color: {r: 0.5647059, g: 0.93333334, b: 0.5647059, a: 1}
+  - tagValue: 16
+    isEnabled: 0
+    color: {r: 0.6784314, g: 0.84705883, b: 0.9019608, a: 1}
+  - tagValue: 32
+    isEnabled: 0
+    color: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
+  - tagValue: 64
+    isEnabled: 0
+    color: {r: 1, g: 0.6, b: 0.6, a: 1}
+  - tagValue: 128
+    isEnabled: 1
+    color: {r: 0.87058824, g: 0.72156864, b: 0.5294118, a: 1}
+  classFilters:
+  - className: ActionsQueue
+    isEnabled: 1
+  - className: ArrowIndicator
+    isEnabled: 1
+  - className: BattlefieldArrowManager
+    isEnabled: 1
+  - className: BattlefieldCombatHandler
+    isEnabled: 1
+  - className: BattlefieldUI
+    isEnabled: 1
+  - className: Card
+    isEnabled: 1
+  - className: CardContainer
+    isEnabled: 1
+  - className: CardController
+    isEnabled: 1
+  - className: CardData
+    isEnabled: 1
+  - className: CardDealingService
+    isEnabled: 1
+  - className: CardDropZone
+    isEnabled: 1
+  - className: CardFactory
+    isEnabled: 1
+  - className: ContainerSettings
+    isEnabled: 1
+  - className: Creature
+    isEnabled: 1
+  - className: Deck
+    isEnabled: 1
+  - className: Entity
+    isEnabled: 1
+  - className: GameActions
+    isEnabled: 1
+  - className: GameBootstrap
+    isEnabled: 1
+  - className: GameManager
+    isEnabled: 1
+  - className: GameMediator
+    isEnabled: 1
+  - className: GameReferences
+    isEnabled: 1
+  - className: GameUI
+    isEnabled: 1
+  - className: HandUI
+    isEnabled: 1
+  - className: HealthHandler
+    isEnabled: 1
+  - className: Player
+    isEnabled: 1
+  - className: PlayerUI
+    isEnabled: 1
+  - className: Target
+    isEnabled: 1
+  - className: TestSetup
+    isEnabled: 1
+  - className: UIComponent
+    isEnabled: 1
+  - className: GameEvents
+    isEnabled: 1
+  showStackTrace: 1
+  whitelistMode: 1
+  tagWhitelistMode: 0
